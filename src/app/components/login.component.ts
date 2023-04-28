@@ -6,10 +6,7 @@ import { MatDialog, MatDialogModule, MatDialogRef } from '@angular/material/dial
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 
-
-
 @Component({
-  selector: 'uf-login',
   standalone: true,
   imports: [
     MatDialogModule,
@@ -38,9 +35,7 @@ import { Router } from '@angular/router';
   ]
 })
 export class LoginDialog {
-  login() {
-
-  }
+  login() { }
 }
 
 @Component({
