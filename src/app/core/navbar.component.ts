@@ -22,23 +22,8 @@ import { RouterLink } from '@angular/router';
       <button mat-button [routerLink]="[{outlets: { modal: ['login'] }}]" class="dashboard-button" aria-label="Example icon-button with heart icon">
         Login
       </button>
-      <span class="nav-spacer"></span>
-      <button mat-icon-button aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
-    </mat-toolbar>
   `,
-  styles: [`
-    .nav-spacer {
-      flex: 1 1 auto;
-    }
-    .dashboard-button {
-      margin-left: 15px;
-    }
-  `]
+  styles: [``]
 })
 export class NavbarComponent {
 
