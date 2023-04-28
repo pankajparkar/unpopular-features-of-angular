@@ -31,7 +31,7 @@ export class DashboardComponent {
     { path: 'aux-route', title: 'Aux Route Example', subTitle: 'It will change the footer for specific route' },
     { path: 'extend-third-party', title: 'Extend 3rd Party code' },
     { path: 'child-to-parent-access', title: 'Child to Parent component access', subTitle: 'How to access the parent component from child component' },
-    { path: 'prevent-partial-page-display', title: 'Prevent Partial Page Load', subTitle: 'How to ' },
+    // { path: 'prevent-partial-page-display', title: 'Prevent Partial Page Load', subTitle: 'How to ' },
     { path: 'template-variable-as-component', title: 'Template variable as a component', subTitle: 'How to achieve this using angular feature?' },
     { path: 'service-ondestroy', title: 'Service On Destroy', subTitle: 'ngDestroy hook inside service' },
   ]

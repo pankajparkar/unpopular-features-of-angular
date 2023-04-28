@@ -1,18 +1,25 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { MatButtonModule } from '@angular/material/button';
+import { UseRefDirective } from '../directives/use-ref.directive';
 
 @Component({
   selector: 'uf-template-as-variable',
   standalone: true,
-  imports: [CommonModule],
+  imports: [MatButtonModule, UseRefDirective],
   template: `
-    <p>
-      template-as-variable works!
-    </p>
+    <div class="button-row">
+      <button #button="ufUseRef" ufUseRef mat-button (click)="testClick(button)">
+        Basic
+      </button>
+    </div>
   `,
   styles: [
   ]
 })
 export class TemplateVariableAsComponent {
+
+  testClick(test: any) {
+    console.log(test);
+  }
 
 }
