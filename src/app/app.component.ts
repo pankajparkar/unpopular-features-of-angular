@@ -1,10 +1,22 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from './core/navbar/navbar.component';
+import { RouterOutlet } from '@angular/router';
+import { FooterComponent } from './core/footer/footer.component';
 
 @Component({
+  standalone: true,
   selector: 'uf-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <uf-navbar></uf-navbar>
+    <router-outlet></router-outlet>
+    <uf-footer></uf-footer>
+  `,
+  styles: [``],
+  imports: [
+    NavbarComponent,
+    RouterOutlet,
+    FooterComponent,
+  ],
 })
 export class AppComponent {
-  title = 'unpopular-features-of-angular';
 }
