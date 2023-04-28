@@ -39,8 +39,8 @@ import { CommonModule } from '@angular/common';
       list-style: none;
     }
     .footer{
-      background-color: #24262b;
-        padding: 70px 0;
+      background-color: #673ab7;
+      padding: 70px 0;
     }
     .footer-col{
       width: 25%;
