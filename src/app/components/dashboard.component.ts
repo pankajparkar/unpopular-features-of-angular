@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule, NgFor } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
 import { RouterLink } from '@angular/router';
 

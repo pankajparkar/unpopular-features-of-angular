@@ -12,13 +12,13 @@ import { CommonModule } from '@angular/common';
         <div class="footer-col">
           <h4>company</h4>
           <ul>
-            <li><a href="#">about us</a></li>
+            <li><a>about us</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>get help</h4>
           <ul>
-            <li><a href="#">FAQ</a></li>
+            <li><a>FAQ</a></li>
           </ul>
         </div>
       </div>
