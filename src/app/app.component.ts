@@ -9,7 +9,7 @@ import { FooterComponent } from './core/footer.component';
   template: `
     <uf-navbar></uf-navbar>
     <router-outlet></router-outlet>
-    <uf-footer></uf-footer>
+    <router-outlet name="modal"></router-outlet>
   `,
   styles: [``],
   imports: [
