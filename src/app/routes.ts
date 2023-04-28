@@ -6,12 +6,12 @@ import { PreventPartialPageDisplayComponent } from './components/prevent-partial
 import { Routes } from '@angular/router';
 import { LoginComponent } from './components/login.component';
 import { ExtendThirdPartyComponent } from './components/extend-third-party.component';
-import { ChildToParentAccessComponent } from './components/child-to-parent-access.component';
+import { ParentComponent } from './components/child-to-parent-access.component';
 
 export const routes: Routes = [
   { path: 'aux-route', component: AuxRouteComponent },
   { path: 'extend-third-party', component: ExtendThirdPartyComponent },
-  { path: 'child-to-parent-access', component: ChildToParentAccessComponent },
+  { path: 'child-to-parent-access', component: ParentComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'prevent-partial-page-display', component: PreventPartialPageDisplayComponent },
   { path: 'template-variable-as-component', component: TemplateVariableAsComponent },
